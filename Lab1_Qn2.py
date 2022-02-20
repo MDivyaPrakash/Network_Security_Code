@@ -18,7 +18,7 @@ def caesar_function(txt_inp,ciph_txt_inp):
         lnth = len(txt_inp)
         i=0
         key_opt= [0]*lnth
-        while ((i < lnth-1)):
+        while ((i < lnth)):
             key_opt[i] = abs(ord((txt_inp[i])) - ord(ciph_txt_inp[i]))
             i=i+1
         return(max(set(key_opt), key = key_opt.count))
