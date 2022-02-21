@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-# This code uses the brute force algorithm to retrieve the key of the Caesar's cipher
+# This code uses the brute force method to retrieve the key of the Caesar's cipher
+# This code goes through all possible shift combinations .
+# The key shift with which both the cipher texts matched, is returned at end.
+
 txt = 'SECURITY IS IMPORTANT'
 ciph_txt = 'FRPHEVGL VF VZCBEGNAG'
 
