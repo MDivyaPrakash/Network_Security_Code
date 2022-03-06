@@ -1,5 +1,5 @@
 # !/usr/bin/env python3
-# This file contains the brut-force approach to decrypt the caesar's cipher text The ASCII
+# This file contains the brut-force approach to decrypt the caesar's cipher text The ASCII.
 # values are arranged in a certain order, so the below approach is exploiting the values and using it to get the
 # shift. The difference of each character is derived and the mode of the whole derived difference is given as the key.
 # This code can take input in both UPPER and LOWER cases. Taking mode will give a better estimation of the key
