@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# This code implements the encryption based on the Fibonacci Series and Caesar's cipher
+# This code implements the encryption based on the Fibonacci Series and Caesar's cipher.
 # This code has been designed to take inputs from the user to whether to encrypt or decrypt, along with the secret key.
 # If no valid option is selected the program will exit out.
 
